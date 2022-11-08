@@ -67,7 +67,7 @@ async def some_job(sema, x):
 def deal_result(r):
     print(r.result())
         
-ado = async_do(20)  # 最多20个协程
+ado = async_do(20)  # 通过信号量控制协程数量
 
 # 基础用法
 for i in range(100):
