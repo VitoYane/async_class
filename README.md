@@ -86,6 +86,7 @@ ado.wait()
 ```
 
 执行效果就是协程执行300次打印, 非常完美
+
 ![image](https://user-images.githubusercontent.com/17432059/200625907-ff664b53-4a26-4788-bed5-d2a3ad78bf59.png)
 
 
