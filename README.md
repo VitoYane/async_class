@@ -65,7 +65,7 @@ class async_do():
         self._go(self.wait)
         
 
-async def some_job(sema, x):                                    # 协程任务
+async def some_job(sema, x):                                    # 协程任务, 注意必须以信号量sema作为第一个参数, 因为代码25行用self.sema作为第一个参数了
     async with sema:
         await asyncio.sleep(0.5)
         print(x)
