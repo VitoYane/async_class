@@ -1,11 +1,12 @@
 # async_class
 Python协程类, 用来简化协程代码编写
 
-协程代码编写过程中, 往往因为各种报错而懊恼, 本项目主要为了让协程写的跟多线程一样简单
+协程代码编写过程中, 往往因为各种报错而懊恼, 本项目主要为了让新手写协程跟多线程一样简单
 
-因为类比较简单, 就直接写在readme中了.
+因为代码比较简单, 可以直接写在readme中.
 
 环境 Python3, 需要安装nest_asyncio, 其他应该是默认库
+- pip install nest_asyncio
 
 ```
 import asyncio
